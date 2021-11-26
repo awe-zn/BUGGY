@@ -1,0 +1,22 @@
+.menu-Header a{
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  font-family: 'lato';
+}
+.menu-Header li:nth-child(1)::after{
+  content: '|';
+  color: white;
+  position: relative;
+  left: 4px;
+}
+.menu-Header ul{
+  list-style: none;
+  display: flex;
+  gap: 8px;
+}
+.menu-footer{
+  list-style: none!important;
+  text-decoration: none;
+  color: #343A40;
+}
